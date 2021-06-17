@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 // import {Talker} from './props/example2/Talker.js';
 // import {App} from './props/example3/App.js';
 // import {Toggle} from './state/Toggle.js';
-import {Clock} from './component lifecycle/Clock.js';
+import {App} from './component lifecycle/App.js';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +16,7 @@ ReactDOM.render(
     {/* <ProfilePage myProps="grappa" firstName="Kevin"/> */}
     {/* <Talker /> */}
     {/* <Toggle /> */}
-    <Clock isPrecise={false}/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

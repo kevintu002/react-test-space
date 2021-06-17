@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import {ProfilePage} from './import, export/ProfilePage.js';
-// import {App} from './props/example1/App.js';
-// import {Talker} from './props/example2/Talker.js';
-// import {App} from './props/example3/App.js';
-// import {Toggle} from './state/Toggle.js';
-import {App} from './component lifecycle/App.js';
+// import {ProfilePage} from './1. import, export/ProfilePage.js';
+// import {App} from './2. props/example1/App.js';
+// import {Talker} from './2. props/example2/Talker.js';
+// import {App} from './2. props/example3/App.js';
+// import {Toggle} from './3. state/Toggle.js';
+import {App} from './4. component lifecycle/App.js';
 
 ReactDOM.render(
   <React.StrictMode>

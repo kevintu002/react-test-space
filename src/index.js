@@ -9,6 +9,9 @@ import reportWebVitals from './reportWebVitals';
 // import {App} from './2. props/example3/App.js';
 // import {Toggle} from './3. state/Toggle.js';
 // import {App} from './4. component lifecycle/App.js';
+// import PhoneNumber from './6. state hook/PhoneNumber';
+// import OrderPizza from './6. state hook/OrderPizza';
+import GroceryCart from './6. state hook/example1/GroceryCart.js';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +20,9 @@ ReactDOM.render(
     {/* <Talker /> */}
     {/* <Toggle /> */}
     {/* <App /> */}
+    {/* <PhoneNumber /> */}
+    {/* <OrderPizza /> */}
+    <GroceryCart />
   </React.StrictMode>,
   document.getElementById('root')
 );

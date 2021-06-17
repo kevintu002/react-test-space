@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 // import {Talker} from './2. props/example2/Talker.js';
 // import {App} from './2. props/example3/App.js';
 // import {Toggle} from './3. state/Toggle.js';
-import {App} from './4. component lifecycle/App.js';
+// import {App} from './4. component lifecycle/App.js';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +16,7 @@ ReactDOM.render(
     {/* <ProfilePage myProps="grappa" firstName="Kevin"/> */}
     {/* <Talker /> */}
     {/* <Toggle /> */}
-    <App />
+    {/* <App /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

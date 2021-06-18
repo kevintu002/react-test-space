@@ -13,7 +13,7 @@ import reportWebVitals from './reportWebVitals';
 // import OrderPizza from './6. state hook/OrderPizza';
 // import GroceryCart from './6. state hook/example5/GroceryCart.js';
 // import App from './6. state hook/example8/Container/AppClass.js';
-import App from './6. state hook/example8/Container/AppFunctionMySoln.js';
+import App from './6. state hook/example8/Container/AppFunction.js';
 
 ReactDOM.render(
   <React.StrictMode>

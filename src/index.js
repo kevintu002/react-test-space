@@ -11,18 +11,19 @@ import reportWebVitals from './reportWebVitals';
 // import {App} from './4. component lifecycle/App.js';
 // import PhoneNumber from './6. state hook/PhoneNumber';
 // import OrderPizza from './6. state hook/OrderPizza';
-import GroceryCart from './6. state hook/example1/GroceryCart.js';
+// import GroceryCart from './6. state hook/example5/GroceryCart.js';
+// import App from './6. state hook/example8/Container/AppClass.js';
+import App from './6. state hook/example8/Container/AppFunctionMySoln.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <ProfilePage myProps="grappa" firstName="Kevin"/> */}
     {/* <Talker /> */}
     {/* <Toggle /> */}
-    {/* <App /> */}
     {/* <PhoneNumber /> */}
     {/* <OrderPizza /> */}
-    <GroceryCart />
+    {/* <GroceryCart /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

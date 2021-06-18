@@ -10,24 +10,24 @@ export default function AppFunction() {
 
   const handleChange = ({target}) => {
     const {name, value} = target;
-    setNewTask((prev) => {
-      return {...prev, [name]: value, id: new Date()};
-    });
+    setNewTask((prev) => (
+       {...prev, [name]: value, id: new Date()}
+    ));
   }
 
   const handleSubmit = (event) => {
     event.preventDefault();
     if (!newTask.title) return;
-    setAllTasks((prev) => {
-      return [newTask, ...prev];
-    });
+    setAllTasks((prev) => (
+      [newTask, ...prev]
+    ))
     setNewTask({});
   }
 
   const handleDelete = (taskIdToRemove) => {
-    setAllTasks((prev) => {
-      return prev.filter((task) => task.id !== taskIdToRemove);
-    });
+    setAllTasks((prev) => (
+      prev.filter((task) => task.id !== taskIdToRemove)
+    ));
   }
 
   return (

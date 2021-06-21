@@ -21,7 +21,7 @@ import reportWebVitals from './reportWebVitals';
 // import Shop from './7. effect hook/example5/Shop'
 // import SocialNetwork from './7. effect hook/example6/SocialNetwork'
 // import {Wow} from './9. style/FacebookColorThief'
-import {GuineaPigsContainer} from './10. container and presentational components/containers/GuineaPigsContainer.js'
+// import {GuineaPigsContainer} from './10. container and presentational components/containers/GuineaPigsContainer.js'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -38,7 +38,7 @@ ReactDOM.render(
     {/* <Shop /> */}
     {/* <SocialNetwork /> */}
     {/* <Wow /> */}
-    <GuineaPigsContainer />
+    {/* <GuineaPigsContainer /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

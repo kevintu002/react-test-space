@@ -19,7 +19,9 @@ import reportWebVitals from './reportWebVitals';
 // import Timer from './7. effect hook/example3/Timer.js'
 // import Forecast from './7. effect hook/example4/Forecast'
 // import Shop from './7. effect hook/example5/Shop'
-import SocialNetwork from './7. effect hook/example6/SocialNetwork'
+// import SocialNetwork from './7. effect hook/example6/SocialNetwork'
+// import {Wow} from './9. style/FacebookColorThief'
+import {GuineaPigsContainer} from './10. container and presentational components/containers/GuineaPigsContainer.js'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -34,7 +36,9 @@ ReactDOM.render(
     {/* <Timer /> */}
     {/* <Forecast /> */}
     {/* <Shop /> */}
-    <SocialNetwork />
+    {/* <SocialNetwork /> */}
+    {/* <Wow /> */}
+    <GuineaPigsContainer />
   </React.StrictMode>,
   document.getElementById('root')
 );

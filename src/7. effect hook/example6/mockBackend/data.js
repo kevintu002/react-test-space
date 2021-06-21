@@ -60,8 +60,14 @@ const getFriend = () => ({
   isOnline: Math.random() < 0.5
 });
 
-export default {
+export default vars = {
   "/menu": ["Home", "Profile", "Events", "Clubs"],
   "/news-feed": Array.from({ length: 5 }, getNewsItem),
   "/friends": Array.from({ length: 12 }, getFriend)
 };
+
+// export default {
+//   "/menu": ["Home", "Profile", "Events", "Clubs"],
+//   "/news-feed": Array.from({ length: 5 }, getNewsItem),
+//   "/friends": Array.from({ length: 12 }, getFriend)
+// };
